@@ -1,11 +1,11 @@
 package com.ronit;
 
-public class player1 {
+public class Player1 {
     private String name;
     private String weapon;
     private int health;
 
-    public player1(String name, String weapon, int health) {
+    public Player1(String name, String weapon, int health) {
         this.name = name;
         this.weapon = weapon;
         if(health < 0 || health > 100){
